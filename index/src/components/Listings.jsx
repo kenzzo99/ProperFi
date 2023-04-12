@@ -1,6 +1,6 @@
 
 import styles from "../style";
-// import {villaAmelia, VillaCallista, VillaSpain} from "../assets"
+// import {villaAmelia, VillaCallista, VillaSpain, location} from "../assets"
 import Buttonz from "./Button2";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 const Listings = () => (
