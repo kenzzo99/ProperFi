@@ -1,6 +1,6 @@
 
 import styles from "../style";
-// import {villaAmelia, VillaCallista, VillaSpain, location} from "../assets"
+// import {villaAmelia, VillaCallista, VillaSpain, location} from "/assets"
 import Buttonz from "./Button2";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 const Listings = () => (
@@ -22,7 +22,7 @@ const Listings = () => (
 
           <div className="p-6 rounded-b-[20px]">
             <div className="flex items-center mb-4">
-              <img src='src\assets\location.svg' />
+              <img src='/images/location.svg' />
               <p className="font-poppins font-normal text-base text-white">&nbsp; Dubrovnik, Croatia</p>
             </div>
             <div className="flex items-center justify-between">
@@ -51,7 +51,7 @@ const Listings = () => (
 
           <div className="p-6 rounded-b-[20px]">
             <div className="flex items-center mb-4">
-              <img src='src\assets\location.svg' />
+              <img src='/images/location.svg' />
               <p className="font-poppins font-normal text-base text-white">&nbsp; Marabella, Spain</p>
             </div>
             <div className="flex items-center justify-between">
@@ -81,7 +81,7 @@ const Listings = () => (
 
           <div className="p-6 rounded-b-[20px]">
             <div className="flex items-center mb-4">
-              <img src='src\assets\location.svg' />
+              <img src='/images/location.svg' />
               <p className="font-poppins font-normal text-base text-white">&nbsp; Dubrovnik, Croatia</p>
             </div>
             <div className="flex items-center justify-between">
