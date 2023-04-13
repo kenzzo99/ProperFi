@@ -67,7 +67,7 @@ const Listings = () => (
             </div>
 
             <div className="flex items-center justify-between">
-            <Buttonz className="bg-[#01f6ff] text-black font-poppins font-medium py-2 px-4 rounded-lg" to="https://goprincetontigers.com/sports/mens-water-polo" location={location}/>
+            <Buttonz className="bg-[#01f6ff] text-black font-poppins font-medium py-2 px-4 rounded-lg" to="https://properfi-mint.vercel.app/" location={location}/>
               <h4 className="font-poppins font-semibold text-base text-white">$312/TKN</h4>
             </div>
 
@@ -97,7 +97,7 @@ const Listings = () => (
             </div>
 
             <div className="flex items-center justify-between">
-            <Buttonz className="bg-[#01f6ff] text-black font-poppins font-medium py-2 px-4 rounded-lg" to="https://goprincetontigers.com/sports/mens-water-polo" location={location}/>
+            <Buttonz className="bg-[#01f6ff] text-black font-poppins font-medium py-2 px-4 rounded-lg" to="https://properfi-mint.vercel.app/" location={location}/>
               <h4 className="font-poppins font-semibold text-base text-white">$62/TKN</h4>
             </div>
 
