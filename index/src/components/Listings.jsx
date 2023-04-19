@@ -1,8 +1,9 @@
 
 import styles from "../style";
-// import {villaAmelia, VillaCallista, VillaSpain, location} from "/assets"
+// import {getValue} from "../firebase.js";
 import Buttonz from "./Button2";
 import { BrowserRouter as Router, Link } from "react-router-dom";
+
 const Listings = () => (
   <Router>
     <section id="clients" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
@@ -18,8 +19,7 @@ const Listings = () => (
         {/* Listing 1*/}
         <div className="flex border border-gray-200 justify-between dark:bg-gray-800 dark:border-gray-700 flex-col rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
 
-          <img src={'/images/villaAmelia.png'} alt={"Villa"} className="w-full h-auto rounded-t-[20px]" />
-
+          <img src={"/images/villaAmelia.png"} alt={"VillaAmelia"} className="w-full h-auto rounded-t-[20px]" />
           <div className="p-6 rounded-b-[20px]">
             <div className="flex items-center mb-4">
               <img src='/images/location.svg' />
